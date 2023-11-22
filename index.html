@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF=8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Sticky notes</title>
+
+		<link rel="stylesheet" href="./css/reset.css">
+		<link rel="stylesheet" href="./css/fonts.css">
+		<link rel="stylesheet" href="./css/index.css">
+	</head>
+
+	<body>
+		<div class="main-container">
+			<h1 id="page-title">Sticky Notes</h1>
+
+			<section class="add-note-container">
+				<div class="input-container">
+					<textarea cols="30" rows="10" maxlength="200" placeholder="Max 200 characters"></textarea>
+					<button class="add-sticker-button">+</button>
+				</div>
+				<p class="error-message"></p>
+			</section>
+
+			<section class="display-notes-container">
+				<div class="notes-container"></div>
+			</section>
+		</div>
+
+		<script src="index.js"></script>
+	</body>
+
+</html>
